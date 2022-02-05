@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  line-height: normal;
+  line-height: normal; /* 일반 줄 간격 */
 }
 
 html,
@@ -20,9 +20,9 @@ body,
 #header-area {
   width: 1024px;
   height: 100%;
-  display: flex;
+  display: flex; /* 기본 방향은 수평방향 */
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between; /* 자식컴포넌트를 양 쪽 끝으로 배치하게됨 */
 }
 
 #header-area img {
